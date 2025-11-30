@@ -257,6 +257,7 @@ class Config:
 - Provide the response in following JSON format: {{"reviews": [{{"lineNumber": <line_number>, "reviewComment": "<review comment>"}}]}}
 - Provide comments and suggestions ONLY if there is something to improve, otherwise "reviews" should be an empty array.
 - Use GitHub Markdown in comments
+- Provide response in suggested language : 한국어
 - IMPORTANT: NEVER suggest adding comments to the code"""
         
         mode_specific_instructions = {
